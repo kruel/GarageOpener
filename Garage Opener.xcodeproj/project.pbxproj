@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12227F951B65B9660007323F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 12227F941B65B9660007323F /* Settings.bundle */; };
+		12A6FE101B67D380004D6C42 /* WebcamNotEnabled.html in Resources */ = {isa = PBXBuildFile; fileRef = 12A6FE0F1B67D380004D6C42 /* WebcamNotEnabled.html */; };
+		12A6FE121B67D467004D6C42 /* WebcamURLMissing.html in Resources */ = {isa = PBXBuildFile; fileRef = 12A6FE111B67D467004D6C42 /* WebcamURLMissing.html */; };
+		12E16A8A1B61C1EC00B0C8B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E16A891B61C1EC00B0C8B3 /* AppDelegate.swift */; };
+		12E16A8C1B61C1EC00B0C8B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E16A8B1B61C1EC00B0C8B3 /* ViewController.swift */; };
+		12E16A8F1B61C1ED00B0C8B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E16A8D1B61C1ED00B0C8B3 /* Main.storyboard */; };
+		12E16A911B61C1ED00B0C8B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E16A901B61C1ED00B0C8B3 /* Images.xcassets */; };
+		12E16A941B61C1ED00B0C8B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E16A921B61C1ED00B0C8B3 /* LaunchScreen.xib */; };
+		12E16AA01B61C1ED00B0C8B3 /* Garage_OpenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E16A9F1B61C1ED00B0C8B3 /* Garage_OpenerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12E16A9A1B61C1ED00B0C8B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E16A7C1B61C1EC00B0C8B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12E16A831B61C1EC00B0C8B3;
+			remoteInfo = "Garage Opener";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12227F941B65B9660007323F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		12A6FE0F1B67D380004D6C42 /* WebcamNotEnabled.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WebcamNotEnabled.html; sourceTree = "<group>"; };
+		12A6FE111B67D467004D6C42 /* WebcamURLMissing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WebcamURLMissing.html; sourceTree = "<group>"; };
+		12E16A841B61C1EC00B0C8B3 /* Garage Opener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Garage Opener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E16A881B61C1EC00B0C8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E16A891B61C1EC00B0C8B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12E16A8B1B61C1EC00B0C8B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12E16A8E1B61C1ED00B0C8B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12E16A901B61C1ED00B0C8B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12E16A931B61C1ED00B0C8B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		12E16A991B61C1ED00B0C8B3 /* Garage OpenerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Garage OpenerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E16A9E1B61C1ED00B0C8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E16A9F1B61C1ED00B0C8B3 /* Garage_OpenerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garage_OpenerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12E16A811B61C1EC00B0C8B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E16A961B61C1ED00B0C8B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E16A7B1B61C1EC00B0C8B3 = {
+			isa = PBXGroup;
+			children = (
+				12E16A861B61C1EC00B0C8B3 /* Garage Opener */,
+				12E16A9C1B61C1ED00B0C8B3 /* Garage OpenerTests */,
+				12E16A851B61C1EC00B0C8B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12E16A851B61C1EC00B0C8B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12E16A841B61C1EC00B0C8B3 /* Garage Opener.app */,
+				12E16A991B61C1ED00B0C8B3 /* Garage OpenerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12E16A861B61C1EC00B0C8B3 /* Garage Opener */ = {
+			isa = PBXGroup;
+			children = (
+				12E16A891B61C1EC00B0C8B3 /* AppDelegate.swift */,
+				12E16A8B1B61C1EC00B0C8B3 /* ViewController.swift */,
+				12A6FE0F1B67D380004D6C42 /* WebcamNotEnabled.html */,
+				12A6FE111B67D467004D6C42 /* WebcamURLMissing.html */,
+				12E16A8D1B61C1ED00B0C8B3 /* Main.storyboard */,
+				12227F941B65B9660007323F /* Settings.bundle */,
+				12E16A901B61C1ED00B0C8B3 /* Images.xcassets */,
+				12E16A921B61C1ED00B0C8B3 /* LaunchScreen.xib */,
+				12E16A871B61C1EC00B0C8B3 /* Supporting Files */,
+			);
+			path = "Garage Opener";
+			sourceTree = "<group>";
+		};
+		12E16A871B61C1EC00B0C8B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12E16A881B61C1EC00B0C8B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12E16A9C1B61C1ED00B0C8B3 /* Garage OpenerTests */ = {
+			isa = PBXGroup;
+			children = (
+				12E16A9F1B61C1ED00B0C8B3 /* Garage_OpenerTests.swift */,
+				12E16A9D1B61C1ED00B0C8B3 /* Supporting Files */,
+			);
+			path = "Garage OpenerTests";
+			sourceTree = "<group>";
+		};
+		12E16A9D1B61C1ED00B0C8B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12E16A9E1B61C1ED00B0C8B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12E16A831B61C1EC00B0C8B3 /* Garage Opener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E16AA31B61C1ED00B0C8B3 /* Build configuration list for PBXNativeTarget "Garage Opener" */;
+			buildPhases = (
+				12E16A801B61C1EC00B0C8B3 /* Sources */,
+				12E16A811B61C1EC00B0C8B3 /* Frameworks */,
+				12E16A821B61C1EC00B0C8B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Garage Opener";
+			productName = "Garage Opener";
+			productReference = 12E16A841B61C1EC00B0C8B3 /* Garage Opener.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12E16A981B61C1ED00B0C8B3 /* Garage OpenerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E16AA61B61C1ED00B0C8B3 /* Build configuration list for PBXNativeTarget "Garage OpenerTests" */;
+			buildPhases = (
+				12E16A951B61C1ED00B0C8B3 /* Sources */,
+				12E16A961B61C1ED00B0C8B3 /* Frameworks */,
+				12E16A971B61C1ED00B0C8B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12E16A9B1B61C1ED00B0C8B3 /* PBXTargetDependency */,
+			);
+			name = "Garage OpenerTests";
+			productName = "Garage OpenerTests";
+			productReference = 12E16A991B61C1ED00B0C8B3 /* Garage OpenerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12E16A7C1B61C1EC00B0C8B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Chachi Kruel";
+				TargetAttributes = {
+					12E16A831B61C1EC00B0C8B3 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = Q36N393TD7;
+						LastSwiftMigration = 0800;
+					};
+					12E16A981B61C1ED00B0C8B3 = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
+						TestTargetID = 12E16A831B61C1EC00B0C8B3;
+					};
+				};
+			};
+			buildConfigurationList = 12E16A7F1B61C1EC00B0C8B3 /* Build configuration list for PBXProject "Garage Opener" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12E16A7B1B61C1EC00B0C8B3;
+			productRefGroup = 12E16A851B61C1EC00B0C8B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12E16A831B61C1EC00B0C8B3 /* Garage Opener */,
+				12E16A981B61C1ED00B0C8B3 /* Garage OpenerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12E16A821B61C1EC00B0C8B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A6FE121B67D467004D6C42 /* WebcamURLMissing.html in Resources */,
+				12227F951B65B9660007323F /* Settings.bundle in Resources */,
+				12E16A8F1B61C1ED00B0C8B3 /* Main.storyboard in Resources */,
+				12E16A941B61C1ED00B0C8B3 /* LaunchScreen.xib in Resources */,
+				12A6FE101B67D380004D6C42 /* WebcamNotEnabled.html in Resources */,
+				12E16A911B61C1ED00B0C8B3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E16A971B61C1ED00B0C8B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E16A801B61C1EC00B0C8B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E16A8C1B61C1EC00B0C8B3 /* ViewController.swift in Sources */,
+				12E16A8A1B61C1EC00B0C8B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12E16A951B61C1ED00B0C8B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E16AA01B61C1ED00B0C8B3 /* Garage_OpenerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12E16A9B1B61C1ED00B0C8B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12E16A831B61C1EC00B0C8B3 /* Garage Opener */;
+			targetProxy = 12E16A9A1B61C1ED00B0C8B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12E16A8D1B61C1ED00B0C8B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E16A8E1B61C1ED00B0C8B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12E16A921B61C1ED00B0C8B3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12E16A931B61C1ED00B0C8B3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12E16AA11B61C1ED00B0C8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12E16AA21B61C1ED00B0C8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12E16AA41B61C1ED00B0C8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q36N393TD7;
+				INFOPLIST_FILE = "Garage Opener/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thekruels.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		12E16AA51B61C1ED00B0C8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q36N393TD7;
+				INFOPLIST_FILE = "Garage Opener/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thekruels.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		12E16AA71B61C1ED00B0C8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Garage OpenerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thekruels.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garage Opener.app/Garage Opener";
+			};
+			name = Debug;
+		};
+		12E16AA81B61C1ED00B0C8B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Garage OpenerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thekruels.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garage Opener.app/Garage Opener";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12E16A7F1B61C1EC00B0C8B3 /* Build configuration list for PBXProject "Garage Opener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E16AA11B61C1ED00B0C8B3 /* Debug */,
+				12E16AA21B61C1ED00B0C8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E16AA31B61C1ED00B0C8B3 /* Build configuration list for PBXNativeTarget "Garage Opener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E16AA41B61C1ED00B0C8B3 /* Debug */,
+				12E16AA51B61C1ED00B0C8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E16AA61B61C1ED00B0C8B3 /* Build configuration list for PBXNativeTarget "Garage OpenerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E16AA71B61C1ED00B0C8B3 /* Debug */,
+				12E16AA81B61C1ED00B0C8B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12E16A7C1B61C1EC00B0C8B3 /* Project object */;
+}
